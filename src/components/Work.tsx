@@ -59,7 +59,7 @@ export default function Work() {
                 </p>
             </div>
             <p className="text-md text-justify">
-            When it's time to deliver your software, we ensure a smooth transition from development to deployment. Our team handles the final stages with precision and care, packaging your solution and assisting with installation, configuration, and integration. .
+            When its time to deliver your software, we ensure a smooth transition from development to deployment. Our team handles the final stages with precision and care, packaging your solution and assisting with installation, configuration, and integration.
             </p>
             </div>
            

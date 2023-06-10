@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function About() {
   return (
@@ -11,26 +12,33 @@ export default function About() {
         <div className="-mx-3 flex items-center sm:-mx-4">
           <div className="w-full px-3 sm:px-4 xl:w-1/2">
             <div className="py-3 sm:py-4">
-              <img
+              <Image
                 src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-1.jpg"
                 alt=""
                 className="w-full rounded-2xl"
+                width={300}
+                height={300}
               />
             </div>
             <div className="py-3 sm:py-4">
-              <img
+              <Image
                 src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-2.jpg"
                 alt=""
                 className="w-full rounded-2xl"
+                width={300}
+                height={300}
               />
             </div>
           </div>
           <div className="w-full px-3 sm:px-4 xl:w-1/2">
             <div className="relative z-10 my-4">
-              <img
+              <Image
                 src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-3.jpg"
                 alt=""
                 className="w-full rounded-2xl"
+                width={300}
+                height={300}
+                
               />
               <span className="absolute -right-7 -bottom-7 z-[-1]">
                 <svg
