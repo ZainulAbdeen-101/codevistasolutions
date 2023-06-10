@@ -612,17 +612,13 @@ export default function About() {
             Why Choose Us
           </span>
           <h2 className="text-[#082C4E] mb-8 text-3xl font-bold sm:text-4xl font-font">
-            Make your customers happy by giving services.
+            Make our customers happy by giving services.
           </h2>
           <p className="text-body-color mb-8 text-base">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less.
+          When you choose Codevista Solutions, you gain a reliable partner dedicated to transforming your software ideas into reality. With our expertise, tailored solutions, commitment to quality, transparent communication, timely delivery, and ongoing support, we are ready to take your software project to new heights.
           </p>
           <p className="text-body-color mb-12 text-base">
-            A domain name is one of the first steps to establishing your brand.
-            Secure a consistent brand image with a domain name that matches your
-            business.
+          Experience the Codevista Solutions difference and let us be your trusted partner in software development.
           </p>
           <a
             href="javascript:void(0)"

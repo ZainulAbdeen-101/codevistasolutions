@@ -46,11 +46,11 @@ export default function Services() {
           </ul>
         </div>
         <div className="shadow-xl min-[320px]:h-[320px] md:h-[400px] text-center  p-6 rounded border-2 border-[#3098F3]  hover:bg-[#082C4E] hover:border-[white] duration-500 delay-75  hover:text-white  bg-[white]/10 backdrop-filter backdrop-blur-lg ">
-          <h3 className="font-font min-[320px]:text-[30px] lg:text-[40px] leading-tight text-[#3098F3]">
+          <h3 className="font-font min-[320px]:text-[30px] lg:text-[44px] leading-tight text-[#3098F3]">
             Innovative Design
           </h3>
           <IoColorFilter className="mx-auto" fill="#FE6571" size={50} />
-          <h4 className="text-[#FD6470] mt-5 text-lg font-bold">Features</h4>
+          <h4 className="text-[#FD6470] mt-3 text-lg font-bold">Features</h4>
           <ul className="flex flex-col tracking-wider  font-light gap-2">
             <li className="">
               <a className="hover:text-[#FD6470] duration-100 " href="">
