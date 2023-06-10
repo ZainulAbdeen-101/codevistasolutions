@@ -24,7 +24,7 @@ export default function Work() {
                 <HiColorSwatch fill="#3098F3" size={40} /> Design
                 </p>
               </div>
-            <p className="text-md text-justify">
+            <p className="text-sm text-justify">
             Our team of talented designers utilizes the latest design trends and user-centered principles to bring your vision to life. Get ready to embark on a visually stunning journey that will captivate your audience and elevate your brand.
 
             </p>
@@ -36,7 +36,7 @@ export default function Work() {
               <FaCode fill="#3098F3" size={40} /> Coding
                 </p>
             </div>
-            <p className="text-md text-justify">
+            <p className="text-sm text-justify">
             At Codevista Solutions, we are passionate about writing clean, efficient, and scalable code. Our experienced developers thrive on challenging projects, employing best practices and cutting-edge technologies to build robust and reliable software solutions
             </p>
             </div>
@@ -47,7 +47,7 @@ export default function Work() {
               <VscServerProcess fill="#3098F3" size={40} /> testing
                 </p>
             </div>
-            <p className="text-md text-justify">
+            <p className="text-sm text-justify">
             Ensuring flawless functionality is a crucial step in our software development process. Our dedicated testing team rigorously puts your software through its paces, meticulously identifying and resolving any bugs or glitches
             </p>
             </div>
@@ -58,7 +58,7 @@ export default function Work() {
               <IoPeopleOutline stroke="#3098F3" size={40} /> Submit
                 </p>
             </div>
-            <p className="text-md text-justify">
+            <p className="text-sm text-justify">
             When its time to deliver your software, we ensure a smooth transition from development to deployment. Our team handles the final stages with precision and care, packaging your solution and assisting with installation, configuration, and integration.
             </p>
             </div>
