@@ -4,7 +4,7 @@ import { BsPcDisplay, IoColorFilter, MdOutlineMobileFriendly } from "./Icons";
 export default function Services() {
   return (
     <>
-      <div className="text-center mt-14">
+      <div id="Services" className="text-center mt-14">
         <p className="text-xl  font-semibold">Our Services</p>
         <h1 className="min-[320px]:text-[25px] text-[35px] text-[#082C4E] font-font font-semibold">
           We provide{" "}
@@ -81,7 +81,11 @@ export default function Services() {
           <h3 className="font-font min-[320px]:text-[30px] lg:text-[40px] leading-tight text-[#3098F3]">
             Mobile Development
           </h3>
-          <MdOutlineMobileFriendly className="mx-auto" fill="#FE6571" size={50} />
+          <MdOutlineMobileFriendly
+            className="mx-auto"
+            fill="#FE6571"
+            size={50}
+          />
           <h4 className="text-[#FD6470] mt-5 text-lg font-bold">Features</h4>
           <ul className="flex flex-col tracking-wider  font-light gap-2">
             <li className="">

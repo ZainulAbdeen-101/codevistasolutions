@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { footer } from "./motion";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -27,11 +28,30 @@ export default function Footer() {
             <a className="link link-hover">Advertisement</a>
           </div>
           <div>
-            <span className="footer-title">Company</span>
-            <a className="link link-hover">About us</a>
-            <a className="link link-hover">Contact</a>
-            <a className="link link-hover">Jobs</a>
-            <a className="link link-hover">Press kit</a>
+            <span className="footer-title">Social Links</span>
+            <Link
+              href={
+                "https://www.facebook.com/Codevista-solution-108838185572001"
+              }
+              target="_blank"
+              className="link link-hover"
+            >
+              Facebook
+            </Link>
+            <Link
+              href={"https://www.instagram.com/codevista_solution/"}
+              target="_blank"
+              className="link link-hover"
+            >
+              Instagram
+            </Link>
+            <Link
+              href={"https://www.linkedin.com/in/codevista-solution-88070027a/"}
+              target="_blank"
+              className="link link-hover"
+            >
+              LinkedIn
+            </Link>
           </div>
           <div>
             <span className="footer-title">Legal</span>

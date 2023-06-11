@@ -13,7 +13,10 @@ import { Sentence, image, letter } from "./motion";
 export default function Work() {
   return (
     <>
-      <div className="flex  lg:flex-row min-[320px]:flex-col lg:h-screen lg:justify-evenly  bg-[#FFFBED] lg:items-center    ">
+      <div
+        id="Work"
+        className="flex  lg:flex-row min-[320px]:flex-col lg:h-screen lg:justify-evenly  bg-[#FFFBED] lg:items-center    "
+      >
         <motion.div
           variants={Sentence}
           initial="hidden"

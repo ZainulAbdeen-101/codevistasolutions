@@ -7,7 +7,10 @@ import { about } from "./motion";
 export default function About() {
   return (
     <>
-      <section className="overflow-hidden pt-20 pb-12 min-[320px]:px-7 md:px-14 lg:pt-[120px] lg:pb-[90px]">
+      <section
+        id="About"
+        className="overflow-hidden pt-20 pb-12 min-[320px]:px-7 md:px-14 lg:pt-[120px] lg:pb-[90px]"
+      >
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap items-center justify-between">
             <div className="w-full px-4 lg:w-6/12">

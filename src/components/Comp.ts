@@ -8,16 +8,4 @@ import Services from "./Services";
 
 import Work from "./Work";
 
-export{
-    Navbar,
-    Hero,
-    Services,
-    Work,
-    Pricing,
-    Footer,
-
-    Contact,
-    About
-    
-
-}
+export { Navbar, Hero, Services, Work, Pricing, Footer, Contact, About };

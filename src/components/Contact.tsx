@@ -8,6 +8,7 @@ export default function Contact() {
   return (
     <>
       <motion.section
+      id="Contacts"
         variants={Sentence}
         initial="hidden"
         whileInView={"visible"}
