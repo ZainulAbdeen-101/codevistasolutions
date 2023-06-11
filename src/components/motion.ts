@@ -21,7 +21,7 @@ export const letter = {
   },
   hidden: {
     opacity: 0,
-    x: 20,
+    x: 10,
     transition: {
       type: "spring",
       damping: 12,
@@ -61,6 +61,44 @@ export const image = {
     opacity: 1,
     scale: 1,
     x: 0,
+    transition: {
+      type: "tween",
+      damping: 12,
+      stiffness: 100,
+      duration: 1.5,
+    },
+  },
+};
+
+export const about = {
+  hidden: {
+    opacity: 0,
+    scale: 0.5,
+    
+  },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    
+    transition: {
+      type: "spring",
+      damping: 12,
+      stiffness: 100,
+      duration: 1.5,
+    },
+  },
+};
+
+export const footer = {
+  hidden: {
+    opacity: 0,
+    y:-200,
+    
+  },
+  visible: {
+    opacity: 1,
+    y:0,
+    
     transition: {
       type: "tween",
       damping: 12,

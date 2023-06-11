@@ -13,7 +13,7 @@ export default function Services() {
         </h1>
       </div>
       <div className="grid min-[320px]:grid-cols-1  md:grid-cols-3 min-[320px]:gap-5 lg:gap-10 min-[320px]:px-6  lg:px-14 lg:py-10 bg-[#F7F7F7]  lg:h-screen items-center min-[320px]:mb-[100px]    mb-20">
-        <div className="shadow-xl text-center min-[320px]:h-[320px] md:h-[400px] border-2 border-[#3098F3] hover:border-[white] p-6 rounded   hover:bg-[#082C4E] bg-[white]/10  duration-500 delay-75  hover:text-white  backdrop-filter backdrop-blur-lg  ">
+        <div className="shadow-xl text-center min-[320px]:h-[320px] md:h-[400px] border-2 border-[#3098F3] hover:border-[white] p-6 rounded-lg   hover:bg-[#082C4E] bg-[white]/10  duration-500 delay-75  hover:text-white  backdrop-filter backdrop-blur-lg  ">
           <h3 className="font-font min-[320px]:text-[30px] lg:text-[40px] leading-tight text-[#3098F3]">
             Website Development
           </h3>
@@ -45,7 +45,7 @@ export default function Services() {
             </li>
           </ul>
         </div>
-        <div className="shadow-xl min-[320px]:h-[320px] md:h-[400px] text-center  p-6 rounded border-2 border-[#3098F3]  hover:bg-[#082C4E] hover:border-[white] duration-500 delay-75  hover:text-white  bg-[white]/10 backdrop-filter backdrop-blur-lg ">
+        <div className="shadow-xl min-[320px]:h-[320px] md:h-[400px] text-center  p-6 rounded-lg border-2 border-[#3098F3]  hover:bg-[#082C4E] hover:border-[white] duration-500 delay-75  hover:text-white  bg-[white]/10 backdrop-filter backdrop-blur-lg ">
           <h3 className="font-font min-[320px]:text-[30px] lg:text-[44px] leading-tight text-[#3098F3]">
             Innovative Design
           </h3>
@@ -77,7 +77,7 @@ export default function Services() {
             </li>
           </ul>
         </div>
-        <div className="shadow-xl text-center min-[320px]:h-[320px] md:h-[400px] p-6 rounded border-2 border-[#3098F3] hover:bg-[#082C4E] hover:border-[white] duration-500 delay-75  hover:text-white bg-[white]/10 backdrop-filter backdrop-blur-lg ">
+        <div className="shadow-xl text-center min-[320px]:h-[320px] md:h-[400px] p-6 rounded-lg border-2 border-[#3098F3] hover:bg-[#082C4E] hover:border-[white] duration-500 delay-75  hover:text-white bg-[white]/10 backdrop-filter backdrop-blur-lg ">
           <h3 className="font-font min-[320px]:text-[30px] lg:text-[40px] leading-tight text-[#3098F3]">
             Mobile Development
           </h3>

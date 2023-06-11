@@ -1,10 +1,18 @@
+"use client";
 import React from "react";
-import Link from "next/link";
+
+import { motion } from "framer-motion";
+import { Sentence } from "./motion";
 
 export default function Contact() {
   return (
     <>
-      <section className="relative z-10 overflow-hidden bg-[white] min-[320px]:px-7 md:px-14 py-20  lg:py-[120px]">
+      <motion.section
+        variants={Sentence}
+        initial="hidden"
+        whileInView={"visible"}
+        className="relative z-10 overflow-hidden bg-[white] min-[320px]:px-7 md:px-14 py-20  lg:py-[120px]"
+      >
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -36,7 +44,7 @@ export default function Contact() {
                       Our Location
                     </h4>
                     <p className="text-body-color text-base">
-                    320 1/2 N E St, San Bernardino, CA 92401, USA
+                      320 1/2 N E St, San Bernardino, CA 92401, USA
                     </p>
                   </div>
                 </div>
@@ -78,7 +86,7 @@ export default function Contact() {
                       Email Address
                     </h4>
                     <p className="text-body-color text-base">
-                    codevistasolution@gmail.com
+                      codevistasolution@gmail.com
                     </p>
                   </div>
                 </div>
@@ -110,7 +118,10 @@ export default function Contact() {
                   </div>
                   <div className="mb-6">
                     <select className="text-gray-700 border-[f0f0f0] focus:border-[#3098F3] w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none">
-                      <option className="text-body-color border-[f0f0f0] " value="website-development">
+                      <option
+                        className="text-body-color border-[f0f0f0] "
+                        value="website-development"
+                      >
                         Website Development
                       </option>
                       <option value="innovative-design">
@@ -949,7 +960,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 }
