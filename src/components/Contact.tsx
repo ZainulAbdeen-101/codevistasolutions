@@ -25,9 +25,7 @@ export default function Contact() {
                   GET IN TOUCH WITH US
                 </h2>
                 <p className="text-body-color mb-9 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
+                Thank you for your interest in our IT company. We are dedicated to providing innovative technology solutions that help businesses thrive in the digital world. If you have any questions or would like to learn more about our services, please don't hesitate to contact us.
                 </p>
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
